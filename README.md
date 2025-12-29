@@ -72,7 +72,7 @@ cost(3,2) = Inf;
 - Mục tiêu: Chặn vòng lặplặp, hạn chế Count-to-Infinity 
 - Ví dụ: nếu A học được đường tới C thông qua B -> A không nói lại với B rằng A đã có đường tới C 
 
-### Poisoned Reverse 
+#### Poisoned Reverse 
 - Là phiên bản mạnh hơn của **Split Horizon**
 - Thay vì không quảng bá route: 
     - Router vẫn quảng bá route đó 
