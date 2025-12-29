@@ -81,7 +81,7 @@ cost(3,2) = Inf;
     - Router láng giềng chắc chắn không sử dụng Route đó 
     - Hiện tượng vòng lặp được loại bỏ gần như hoàn toàn 
 
-### 4. Kiến trúc file MATLAB 
+## 4. Kiến trúc file MATLAB 
 ```css
 DV_Routing_Simulation/
 │
@@ -92,13 +92,13 @@ DV_Routing_Simulation/
 ├── print_routing_table.m      % In bảng định tuyến
 └── README.txt                 % Giải thích lý thuyết
 ```
-### 5. Đầu vào và đầu ra của mô phỏng 
-#### 5.1 Input
+## 5. Đầu vào và đầu ra của mô phỏng 
+### 5.1 Input
 - Số Router (`numNodes`)
 - Topology mạng (danh sách các liên kết) 
 - Xác suất link failure 
 - Bật/tắt Split Horizon và Poisoned Reverse 
-#### 5.2 Output 
+### 5.2 Output 
 - Bảng định tuyến của mỗi Router theo từng Iteration 
 - Topology mạng trước và sau link failure 
 - Đường đi ngắn nhất giữa các Router
