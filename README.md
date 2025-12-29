@@ -103,3 +103,6 @@ DV_Routing_Simulation/
 - Topology mạng trước và sau link failure 
 - Đường đi ngắn nhất giữa các Router
 - Đồ thị quá trình hội tụ của thuật toán
+- Trong mô phỏng, các sự cố liên kết được tạo ra ngẫu nhiên tại nhiều thời điểm khác nhau. 
+    - Sau mỗi lần link failure, topology mạng được lưu lại để phục vụ phân tích. 
+    - Điều này cho phép quan sát sự thay đổi dần dần của cấu trúc mạng cũng như ảnh hưởng của từng sự cố đến quá trình hội tụ của thuật toán Distance Vector.

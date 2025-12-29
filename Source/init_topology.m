@@ -10,7 +10,7 @@
 %
 function [cost] = init_topology(numNodes)
     INFINITY = Inf;
-    cost = INFINITY * ones(numNodes);
+    cost = INFINITY * ones(numNodes); % Khoi tao ma tran cost[numNodes x numNodes] = {1}
 
     % Cost cua chinh no bang 0
     for i = 1 : numNodes
@@ -18,10 +18,13 @@ function [cost] = init_topology(numNodes)
     end
 
 
-    % Danh sach cac lien ket (links) trong network
+    % Danh sach cau truc lien ket (links) trong network
     % Moi dong mo ta "node nao noi den node nao" va ton bao nhieu "cost"
-    % Muon mo rong bao nhieu node cung duoc
-    %       [from - to - cost]
+    % Muon mo rong bao nhieu node/Router cung duoc
+    % So luong Router phai lon hon pham vi Link (moi so trong links phai <= numNodes)
+    % Neu Router ton tai ma khong co Link nao noi toi thi chung la Router co lap (Cost = Inf)
+    % Cang nhieu link, topology cang phong phu (nhung thuc te thi khong nhu vay)
+    %       [from_node - to_node - cost]
     links = [ 1 2 1;
               1 3 4;
               2 3 2;
@@ -29,6 +32,8 @@ function [cost] = init_topology(numNodes)
               3 4 3;
               4 5 2;
               5 6 1;
+              3 6 4;
+              1 4 5;
             ];
 
     % Cho k duyet tung links co kich thuoc 1D
