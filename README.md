@@ -1,9 +1,10 @@
-# MÔ PHỎNG DISTANCE VECTOR ROUTING 
+# MÔ PHỎNG DISTANCE VECTOR ROUTING
 ## 1. Giới thiệu Distance Vector Routing (DVR)
-- Là thuyết toán định tuyến trong đóđó, mỗi router chi biết:
+- **Distance Vector Routing** là một thuật toán định tuyến trong đó mỗi Router không có cái nhìn toàn cục về mạng, mà chỉ dựa vào thông tin cục bộ từ các Router láng giềng
+- Là thuyết toán định tuyến trong đó, mỗi router chi biết:
     - Chi phí từ nó đến các Router láng giềng trực tiếp
-    - Bảng định tuyến của láng giềng 
-- Router định kỳ trao đổi **vector khoảng cách** với láng giềng 
+    - Bảng định tuyến (distance vector) của láng giềng 
+- Router định kỳ trao đổi **vector khoảng cách** với láng giềng để cập nhật bảng định tuyến 
 - Dựa trên công thức **Bellman-Ford**: 
 
 $$ D_x(y) = \min_{v \in \text{Neighbors}(x)} \{ c(x, v) + D_v(y) \} $$
@@ -18,12 +19,19 @@ $$ D_x(y) = \min_{v \in \text{Neighbors}(x)} \{ c(x, v) + D_v(y) \} $$
 | Distance Vector Table | Bảng định tuyến     |
 | Iteration             | Một chu kỳ cập nhật |
 
+### 2.2 Giả định trong mô phỏng 
+- Mạng hoạt động theo mô hình tĩnh trong từng iteration 
+- Không xét delay, packet loss
+- Các Router cập nhật bảng định tuyến đồng bộ theo vòng lặp 
+- Topology có thể thay đổi do link failure ngẫu nhiên
+
 ## 3. Thành phần nâng cao 
 ### 3.1 Count-to-Inifinity Problem (Lỗi kinh điển của Distance-Vector)
 - **Count-to-Infinity** xảy ra khi: 
     - Một link bị đứt
-    - Các Router không biết ngay 
-    - Chúng cập nhật sai lẫn nhau, làm cho cost tăng dần, tăng dần đến vô hạn 
+    - Các Router không biết ngay lập tức
+    - Các Router tiếp tục cập nhật bảng định tuyến dựa trên thông tin lỗi thời từ láng giềng 
+- Hậu quả là chúng cập nhật sai lẫn nhau, làm cho cost tăng dần, tăng dần đến vô hạn 
 - Ví dụ trực quan: 
     - Giả sử có 3 Router: 
 ```css
@@ -60,12 +68,19 @@ cost(3,2) = Inf;
 
 ### 3.3 Split Horizon & Poisoned Reverse 
 #### Split Horizon 
-- Split Horizon là hiện tượng khi Router không quảng bá một route ngược lại chính Router đã cung cấp Route đó
-- Mục tiêu: Chặn vòng lặp
+- Split Horizon là cơ chế trong đó 1 Router không quảng bá một route ngược lại chính Router đã cung cấp Route đó
+- Mục tiêu: Chặn vòng lặplặp, hạn chế Count-to-Infinity 
 - Ví dụ: nếu A học được đường tới C thông qua B -> A không nói lại với B rằng A đã có đường tới C 
 
 ### Poisoned Reverse 
-- Là hiện tượng thay vì không nói *"Router nói "*
+- Là phiên bản mạnh hơn của **Split Horizon**
+- Thay vì không quảng bá route: 
+    - Router vẫn quảng bá route đó 
+    - Nhưng với Cost vô hạn 
+- Điều này đảm bảo rằng:
+    - Router láng giềng chắc chắn không sử dụng Route đó 
+    - Hiện tượng vòng lặp được loại bỏ gần như hoàn toàn 
+
 ### 4. Kiến trúc file MATLAB 
 ```css
 DV_Routing_Simulation/
@@ -77,5 +92,14 @@ DV_Routing_Simulation/
 ├── print_routing_table.m      % In bảng định tuyến
 └── README.txt                 % Giải thích lý thuyết
 ```
-
-
+### 5. Đầu vào và đầu ra của mô phỏng 
+#### 5.1 Input
+- Số Router (`numNodes`)
+- Topology mạng (danh sách các liên kết) 
+- Xác suất link failure 
+- Bật/tắt Split Horizon và Poisoned Reverse 
+#### 5.2 Output 
+- Bảng định tuyến của mỗi Router theo từng Iteration 
+- Topology mạng trước và sau link failure 
+- Đường đi ngắn nhất giữa các Router
+- Đồ thị quá trình hội tụ của thuật toán
