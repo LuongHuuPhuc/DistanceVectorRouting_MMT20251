@@ -19,7 +19,7 @@ MAX_ITER = 50;
 
 % So vong lap ma link bi failure (Khi nao mang bi link failure)
 LINK_FAILURE_ITER = 6; % (UNUSED)
-LINK_FAILURE_PROB = 0.2;  % Ty le Link bi dut (20 %)
+LINK_FAILURE_PROB = 0.5;  % Ty le Link bi dut (20 %)
 
 % Bat/tat chuc nang
 USE_SPLIT_HORIZION = false; % Giam Count-to-Infinity nhung chua triet de
@@ -133,7 +133,7 @@ for iter = 1 : MAX_ITER
     % Neu khong cap nhat -> 100 % xay ra Count-to-Infinity
     % Neu cap nhat -> Mang hoi tu ngay
     % Day chi la buoc cap nhat trang thai cua thuat toan DV sau moi vong lap
-    % DV = DV_new;
+    DV = DV_new;
 end
 
 % ----- VE DO THI TRUC QUAN HOA TUNG LAN FAILURE -----

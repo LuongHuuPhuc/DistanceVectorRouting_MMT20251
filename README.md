@@ -22,7 +22,7 @@ $$ D_x(y) = \min_{v \in \text{Neighbors}(x)} \{ c(x, v) + D_v(y) \} $$
 ### 2.2 Giả định trong mô phỏng 
 - Mạng hoạt động theo mô hình tĩnh trong từng iteration 
 - Không xét delay, packet loss
-- Các Router cập nhật bảng định tuyến đồng bộ theo vòng lặp 
+- Các Router cập nhật bảng định tuyến đồng bộ theo vòng lặp (`DV = DV_new`)
 - Topology có thể thay đổi do link failure ngẫu nhiên
 
 ## 3. Thành phần nâng cao 
@@ -47,9 +47,10 @@ A —— B —— C
     - B → C = 1
 - Sự cố xảy ra:
     - Link B-C bị đứt 
-    - Nhưng B chưa biết, A vẫn nói với B "Tôi đi đến C mất 2 cost" 
-    - B nghĩ: $B→C=1+2=3$
-    - B lại báo cho A: $A→C=1+3=4$
+    - Chỉ node B biết link bị đứt, nhưng A vẫn nghĩ "Qua B, tôi đi đến C mất 2 cost" và quảng bá nó cho node xung quanh
+    - Khi link B-C bị đứt, node B lại nghĩ:"À, A đi được đến C, vậy thì mình đi qua A" ($B→C=1+2=3$)
+    - Tiếp tục B lại quảng bá thông tin lỗi thời rằng "tôi đến C mất 3 cost" (`Cost(B→C) = 3`)
+    - B lại quảng bá lại cho A và A lại nghĩ: $A→C=1+3=4$
     - Cứ thế $2 → 3 → 4 → 5 → 6 → ... → ∞$
 - Hiên tượng này được quan sát khi một liên kết bị hỏng và các router khác tiếp tục cập nhật bảng định tuyến dựa trên thông tin lỗi thời từ láng giềng
 - Mô phỏng MATLAB:
@@ -118,3 +119,13 @@ DV_Routing_Simulation/
 - Trong mô phỏng, các sự cố liên kết được tạo ra ngẫu nhiên tại nhiều thời điểm khác nhau. 
     - Sau mỗi lần link failure, topology mạng được lưu lại để phục vụ phân tích. 
     - Điều này cho phép quan sát sự thay đổi dần dần của cấu trúc mạng cũng như ảnh hưởng của từng sự cố đến quá trình hội tụ của thuật toán Distance Vector.
+## 6. Nhân xét
+- Việc cập nhật bảng định tuyến sau mỗi vòng lặp là bắt buộc cho thuật toán DVR (trong thực tế). Đây là điều kiện bắt buộc để mạng có thể hội tụ. 
+- Mỗi Router cập nhật bảng định tuyến của chính nó, dựa trên thông tin mà nó nhận được trong vòng đó
+    + Router KHÔNG nhìn thấy Topology của toàn mạng 
+    + Router KHÔNG biết link xa bị đứt 
+    + Router chỉ tin những gì hàng xóm quảng bá 
+- Qua các vòng lặp thì thông tin bảng định tuyến vẫn được cập nhật nhưng lại cập nhật thông tin SAI của hàng xóm
+-  **Count-to-Infinity** chính là hậu quả của việc "tin nhầm thông tin cũ" đó.
+- Nếu không thực hiện bước cập nhật này, các Route sẽ tiếp tục sử dụng thông tin định tuyến cũ, dẫn đến việc lặp lại các thông tin sai lệch và càng dễ gây ra **Count-to-Infinity**
+- Tuy nhiên bản thân việc cập nhật **Distance Vector** không phải là cơ chế chống **Count-to-Infinity**.
