@@ -81,6 +81,18 @@ cost(3,2) = Inf;
     - Router láng giềng chắc chắn không sử dụng Route đó 
     - Hiện tượng vòng lặp được loại bỏ gần như hoàn toàn 
 
+### 3.4 Mạng hội tụ 
+- Mạng được xem là hội tụ khi các bảng Distance Vector của tất cả router không còn thay đổi sau một vòng cập nhật.
+- Hay có nghĩa là toàn bộ bảng định tuyến không thay đổi, không còn Router nào có thể cải thiện (giảm) cost đến bất kỳ đích nào nữa 
+- Điều này tương đương với việc không tồn tại đường đi nào có chi phí nhỏ hơn có thể được khám phá thêm.
+- Công thức **Bellman-Ford** cho mạng hội tụ khi:
+
+$$ DV^{(k + 1)} = DV\^{(k)}$$
+
+- Với mọi Router $x$ và mọi đích $y$ hội tụ khi:
+
+$$D_x^{(k+1)}(y) = D_x^{(k)}(y)$$
+
 ## 4. Kiến trúc file MATLAB 
 ```css
 DV_Routing_Simulation/
