@@ -6,7 +6,7 @@ function plot_shortest_path(cost, src, dst, ax)
     G = graph(adj, 'upper');
     
     cla(ax);
-    p = plot(G, 'Layout', 'force', 'LineWidth', 1.2);
+    p = plot(G, 'Layout', 'circle', 'LineWidth', 1.2);
     
     if src ~= dst && numnodes(G) >= max(src, dst)
         [path, dist] = shortestpath(G, src, dst);

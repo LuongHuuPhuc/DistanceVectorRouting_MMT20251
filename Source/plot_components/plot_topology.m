@@ -7,7 +7,7 @@ function plot_topology(cost, ax, titleStr)
     G = graph(adj, "upper");
 
     cla(ax); % Xoa noi dung cu tren subplot
-    p = plot(G, 'Layout', 'force', 'LineWidth', 1.5);
+    p = plot(G, 'Layout', 'circle', 'LineWidth', 1.5);
     title(ax, titleStr);
 
     % Hien thi cost tren link 
