@@ -17,7 +17,6 @@ function [cost] = init_topology(numNodes)
         cost(i, i) = 0;
     end
 
-
     % Danh sach cau truc lien ket (links) trong network
     % Moi dong mo ta "node nao noi den node nao" va ton bao nhieu "cost"
     % Muon mo rong bao nhieu node/Router cung duoc
