@@ -58,6 +58,15 @@ A —— B —— C
 cost(2,3) = Inf;
 cost(3,2) = Inf;
 ```
+- **Count-to-Infinity** xảy ra khi đồng thời 3 điều kiện đúng: 
+
+| Điều kiện                         |
+| --------------------------------- 
+| Router cập nhật **bất đồng bộ**   | 
+| Router **chấp nhận cost tăng**    |
+| Router **tin thông tin lỗi thời** |
+- Chỉ xảy ra khi Router không biết sự thật mà chỉ mù quáng tin lời hàng xóm
+
 ### 3.2 Link Failure Simulation (Mô phỏng đứt link)
 - Ý nghĩa mô phỏng: 
     - Cáp bị đứt
