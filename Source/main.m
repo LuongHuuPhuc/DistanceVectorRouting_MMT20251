@@ -15,7 +15,7 @@ numNodes = 6; % So Nodes (so Router)
 
 % So lan cac Router trao doi bang dinh tuyen toi da (so lan cap nhat toi da cua thuat toan)
 % Chinh la gioi han so vong cap nhat de tranh chay vo han khi mang khong hoi tu
-MAX_ITER = 20; 
+MAX_ITER = 50; 
 
 % So vong lap ma link bi failure (Khi nao mang bi link failure)
 LINK_FAILURE_ITER = 6; % (UNUSED)
@@ -110,7 +110,7 @@ for iter = 1 : MAX_ITER
     % Do topology co nhieu duong thay the nen it xay ra Count-to-Infinity
     % Count-to-Infinity chi xay ra khi topology ngheo duong du phong
 
-    % ----- CAP NHAT DISTANCE VECTOR -----
+    % ----- CAP NHAT BANG DINH TUYEN DISTANCE VECTOR -----
     [DV_new, NextHop] = distance_vector_step(...
         DV, cost, NextHop, ...
         USE_SPLIT_HORIZION, ...
@@ -132,6 +132,7 @@ for iter = 1 : MAX_ITER
     % Cap nhat trang thai cho vong sau
     % Neu khong cap nhat -> 100 % xay ra Count-to-Infinity
     % Neu cap nhat -> Mang hoi tu ngay
+    % Day chi la buoc cap nhat trang thai cua thuat toan DV sau moi vong lap
     DV = DV_new;
 end
 

@@ -1,114 +1,71 @@
 
 ===== INTERATION 1 =====
-Router 1
-
- -> 2 | Cost = 1 | NextHop = 2
- -> 3 | Cost = 3 | NextHop = 2
- -> 4 | Cost = 5 | NextHop = 4
- -> 5 | Cost = 7 | NextHop = 4
- -> 6 | Cost = 8 | NextHop = 3
-Router 2
-
- -> 1 | Cost = 1 | NextHop = 1
- -> 3 | Cost = 2 | NextHop = 3
- -> 4 | Cost = 5 | NextHop = 3
- -> 5 | Cost = 8 | NextHop = 4
- -> 6 | Cost = 6 | NextHop = 3
-Router 3
-
- -> 1 | Cost = 3 | NextHop = 2
- -> 2 | Cost = 2 | NextHop = 2
- -> 4 | Cost = 3 | NextHop = 4
- -> 5 | Cost = 5 | NextHop = 4
- -> 6 | Cost = 4 | NextHop = 6
-Router 4
-
- -> 1 | Cost = 5 | NextHop = 1
- -> 2 | Cost = 5 | NextHop = 3
- -> 3 | Cost = 3 | NextHop = 3
- -> 5 | Cost = 2 | NextHop = 5
- -> 6 | Cost = 3 | NextHop = 5
-Router 5
-
- -> 1 | Cost = 7 | NextHop = 4
- -> 2 | Cost = 8 | NextHop = 4
- -> 3 | Cost = 5 | NextHop = 4
- -> 4 | Cost = 2 | NextHop = 4
- -> 6 | Cost = 1 | NextHop = 6
-Router 6
-
- -> 1 | Cost = 8 | NextHop = 3
- -> 2 | Cost = 6 | NextHop = 3
- -> 3 | Cost = 4 | NextHop = 3
- -> 4 | Cost = 3 | NextHop = 5
- -> 5 | Cost = 1 | NextHop = 5
-
-===== INTERATION 2 =====
-Router 1
-
- -> 2 | Cost = 1 | NextHop = 2
- -> 3 | Cost = 3 | NextHop = 2
- -> 4 | Cost = 5 | NextHop = 4
- -> 5 | Cost = 7 | NextHop = 4
- -> 6 | Cost = 7 | NextHop = 2
-Router 2
-
- -> 1 | Cost = 1 | NextHop = 1
- -> 3 | Cost = 2 | NextHop = 3
- -> 4 | Cost = 5 | NextHop = 3
- -> 5 | Cost = 7 | NextHop = 3
- -> 6 | Cost = 6 | NextHop = 3
-Router 3
-
- -> 1 | Cost = 3 | NextHop = 2
- -> 2 | Cost = 2 | NextHop = 2
- -> 4 | Cost = 3 | NextHop = 4
- -> 5 | Cost = 5 | NextHop = 4
- -> 6 | Cost = 4 | NextHop = 6
-Router 4
-
- -> 1 | Cost = 5 | NextHop = 1
- -> 2 | Cost = 5 | NextHop = 3
- -> 3 | Cost = 3 | NextHop = 3
- -> 5 | Cost = 2 | NextHop = 5
- -> 6 | Cost = 3 | NextHop = 5
-Router 5
-
- -> 1 | Cost = 7 | NextHop = 4
- -> 2 | Cost = 7 | NextHop = 4
- -> 3 | Cost = 5 | NextHop = 4
- -> 4 | Cost = 2 | NextHop = 4
- -> 6 | Cost = 1 | NextHop = 6
-Router 6
-
- -> 1 | Cost = 7 | NextHop = 3
- -> 2 | Cost = 6 | NextHop = 3
- -> 3 | Cost = 4 | NextHop = 3
- -> 4 | Cost = 3 | NextHop = 5
- -> 5 | Cost = 1 | NextHop = 5
-
-===== INTERATION 3 =====
 >>> RANDOM LINK FAILURE: 4 <-> 5
 Router 1
 
  -> 2 | Cost = 1 | NextHop = 2
  -> 3 | Cost = 3 | NextHop = 2
  -> 4 | Cost = 5 | NextHop = 4
- -> 5 | Cost = 7 | NextHop = 4
- -> 6 | Cost = 7 | NextHop = 2
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = 8 | NextHop = 3
 Router 2
 
  -> 1 | Cost = 1 | NextHop = 1
  -> 3 | Cost = 2 | NextHop = 3
  -> 4 | Cost = 5 | NextHop = 3
- -> 5 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
  -> 6 | Cost = 6 | NextHop = 3
 Router 3
 
  -> 1 | Cost = 3 | NextHop = 2
  -> 2 | Cost = 2 | NextHop = 2
  -> 4 | Cost = 3 | NextHop = 4
- -> 5 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = 5 | NextHop = 6
+ -> 6 | Cost = 4 | NextHop = 6
+Router 4
+
+ -> 1 | Cost = 5 | NextHop = 1
+ -> 2 | Cost = 5 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = 7 | NextHop = 3
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = 5 | NextHop = 6
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = 1 | NextHop = 6
+Router 6
+
+ -> 1 | Cost = 8 | NextHop = 3
+ -> 2 | Cost = 6 | NextHop = 3
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = 1 | NextHop = 5
+
+===== INTERATION 2 =====
+>>> RANDOM LINK FAILURE: 2 <-> 3
+Router 1
+
+ -> 2 | Cost = 1 | NextHop = 2
+ -> 3 | Cost = 3 | NextHop = 2
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = 9 | NextHop = 3
+ -> 6 | Cost = 7 | NextHop = 2
+Router 2
+
+ -> 1 | Cost = 1 | NextHop = 1
+ -> 3 | Cost = 4 | NextHop = 1
+ -> 4 | Cost = 5 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = 6 | NextHop = 3
+Router 3
+
+ -> 1 | Cost = 3 | NextHop = 2
+ -> 2 | Cost = 5 | NextHop = 1
+ -> 4 | Cost = 3 | NextHop = 4
+ -> 5 | Cost = 5 | NextHop = 6
  -> 6 | Cost = 4 | NextHop = 6
 Router 4
 
@@ -116,44 +73,44 @@ Router 4
  -> 2 | Cost = 5 | NextHop = 3
  -> 3 | Cost = 3 | NextHop = 3
  -> 5 | Cost = 8 | NextHop = 3
- -> 6 | Cost = 3 | NextHop = 5
+ -> 6 | Cost = 7 | NextHop = 3
 Router 5
 
- -> 1 | Cost = 7 | NextHop = 4
- -> 2 | Cost = 7 | NextHop = 4
- -> 3 | Cost = 5 | NextHop = 4
- -> 4 | Cost = 4 | NextHop = 6
+ -> 1 | Cost = 9 | NextHop = 6
+ -> 2 | Cost = 7 | NextHop = 6
+ -> 3 | Cost = 5 | NextHop = 6
+ -> 4 | Cost = 8 | NextHop = 6
  -> 6 | Cost = 1 | NextHop = 6
 Router 6
 
  -> 1 | Cost = 7 | NextHop = 3
  -> 2 | Cost = 6 | NextHop = 3
  -> 3 | Cost = 4 | NextHop = 3
- -> 4 | Cost = 3 | NextHop = 5
+ -> 4 | Cost = 7 | NextHop = 3
  -> 5 | Cost = 1 | NextHop = 5
 
-===== INTERATION 4 =====
+===== INTERATION 3 =====
 >>> RANDOM LINK FAILURE: 1 <-> 2
 Router 1
 
- -> 2 | Cost = 6 | NextHop = 3
+ -> 2 | Cost = 9 | NextHop = 3
  -> 3 | Cost = 3 | NextHop = 2
  -> 4 | Cost = 5 | NextHop = 4
- -> 5 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = 9 | NextHop = 3
  -> 6 | Cost = 7 | NextHop = 2
 Router 2
 
- -> 1 | Cost = 5 | NextHop = 3
- -> 3 | Cost = 2 | NextHop = 3
+ -> 1 | Cost = 11 | NextHop = 4
+ -> 3 | Cost = 4 | NextHop = 1
  -> 4 | Cost = 5 | NextHop = 3
- -> 5 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = 14 | NextHop = 4
  -> 6 | Cost = 6 | NextHop = 3
 Router 3
 
  -> 1 | Cost = 3 | NextHop = 2
- -> 2 | Cost = 2 | NextHop = 2
+ -> 2 | Cost = 5 | NextHop = 1
  -> 4 | Cost = 3 | NextHop = 4
- -> 5 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = 5 | NextHop = 6
  -> 6 | Cost = 4 | NextHop = 6
 Router 4
 
@@ -161,43 +118,43 @@ Router 4
  -> 2 | Cost = 5 | NextHop = 3
  -> 3 | Cost = 3 | NextHop = 3
  -> 5 | Cost = 8 | NextHop = 3
- -> 6 | Cost = 3 | NextHop = 5
+ -> 6 | Cost = 7 | NextHop = 3
 Router 5
 
- -> 1 | Cost = 7 | NextHop = 4
- -> 2 | Cost = 7 | NextHop = 4
- -> 3 | Cost = 5 | NextHop = 4
- -> 4 | Cost = 4 | NextHop = 6
+ -> 1 | Cost = 8 | NextHop = 6
+ -> 2 | Cost = 7 | NextHop = 6
+ -> 3 | Cost = 5 | NextHop = 6
+ -> 4 | Cost = 8 | NextHop = 6
  -> 6 | Cost = 1 | NextHop = 6
 Router 6
 
  -> 1 | Cost = 7 | NextHop = 3
  -> 2 | Cost = 6 | NextHop = 3
  -> 3 | Cost = 4 | NextHop = 3
- -> 4 | Cost = 3 | NextHop = 5
+ -> 4 | Cost = 7 | NextHop = 3
  -> 5 | Cost = 1 | NextHop = 5
 
-===== INTERATION 5 =====
+===== INTERATION 4 =====
 Router 1
 
- -> 2 | Cost = 6 | NextHop = 3
+ -> 2 | Cost = 9 | NextHop = 3
  -> 3 | Cost = 3 | NextHop = 2
  -> 4 | Cost = 5 | NextHop = 4
- -> 5 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = 9 | NextHop = 3
  -> 6 | Cost = 7 | NextHop = 2
 Router 2
 
- -> 1 | Cost = 5 | NextHop = 3
- -> 3 | Cost = 2 | NextHop = 3
+ -> 1 | Cost = 11 | NextHop = 4
+ -> 3 | Cost = 4 | NextHop = 1
  -> 4 | Cost = 5 | NextHop = 3
- -> 5 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = 14 | NextHop = 4
  -> 6 | Cost = 6 | NextHop = 3
 Router 3
 
  -> 1 | Cost = 3 | NextHop = 2
- -> 2 | Cost = 2 | NextHop = 2
+ -> 2 | Cost = 5 | NextHop = 1
  -> 4 | Cost = 3 | NextHop = 4
- -> 5 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = 5 | NextHop = 6
  -> 6 | Cost = 4 | NextHop = 6
 Router 4
 
@@ -205,19 +162,19 @@ Router 4
  -> 2 | Cost = 5 | NextHop = 3
  -> 3 | Cost = 3 | NextHop = 3
  -> 5 | Cost = 8 | NextHop = 3
- -> 6 | Cost = 3 | NextHop = 5
+ -> 6 | Cost = 7 | NextHop = 3
 Router 5
 
- -> 1 | Cost = 7 | NextHop = 4
- -> 2 | Cost = 7 | NextHop = 4
- -> 3 | Cost = 5 | NextHop = 4
- -> 4 | Cost = 4 | NextHop = 6
+ -> 1 | Cost = 8 | NextHop = 6
+ -> 2 | Cost = 7 | NextHop = 6
+ -> 3 | Cost = 5 | NextHop = 6
+ -> 4 | Cost = 8 | NextHop = 6
  -> 6 | Cost = 1 | NextHop = 6
 Router 6
 
  -> 1 | Cost = 7 | NextHop = 3
  -> 2 | Cost = 6 | NextHop = 3
  -> 3 | Cost = 4 | NextHop = 3
- -> 4 | Cost = 3 | NextHop = 5
+ -> 4 | Cost = 7 | NextHop = 3
  -> 5 | Cost = 1 | NextHop = 5
 >>> NETWORK CONVERGED>> 

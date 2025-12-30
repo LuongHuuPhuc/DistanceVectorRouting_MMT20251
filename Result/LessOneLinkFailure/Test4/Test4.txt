@@ -88,17 +88,17 @@ Router 6
  -> 5 | Cost = 1 | NextHop = 5
 
 ===== INTERATION 3 =====
->>> RANDOM LINK FAILURE: 1 <-> 2
+>>> RANDOM LINK FAILURE: 5 <-> 6
 Router 1
 
- -> 2 | Cost = 6 | NextHop = 3
+ -> 2 | Cost = 1 | NextHop = 2
  -> 3 | Cost = 3 | NextHop = 2
  -> 4 | Cost = 5 | NextHop = 4
  -> 5 | Cost = 7 | NextHop = 4
  -> 6 | Cost = 7 | NextHop = 2
 Router 2
 
- -> 1 | Cost = 5 | NextHop = 3
+ -> 1 | Cost = 1 | NextHop = 1
  -> 3 | Cost = 2 | NextHop = 3
  -> 4 | Cost = 5 | NextHop = 3
  -> 5 | Cost = 7 | NextHop = 3
@@ -123,26 +123,26 @@ Router 5
  -> 2 | Cost = 7 | NextHop = 4
  -> 3 | Cost = 5 | NextHop = 4
  -> 4 | Cost = 2 | NextHop = 4
- -> 6 | Cost = 1 | NextHop = 6
+ -> 6 | Cost = 5 | NextHop = 4
 Router 6
 
  -> 1 | Cost = 7 | NextHop = 3
  -> 2 | Cost = 6 | NextHop = 3
  -> 3 | Cost = 4 | NextHop = 3
  -> 4 | Cost = 3 | NextHop = 5
- -> 5 | Cost = 1 | NextHop = 5
+ -> 5 | Cost = 9 | NextHop = 3
 
 ===== INTERATION 4 =====
 Router 1
 
- -> 2 | Cost = 6 | NextHop = 3
+ -> 2 | Cost = 1 | NextHop = 2
  -> 3 | Cost = 3 | NextHop = 2
  -> 4 | Cost = 5 | NextHop = 4
  -> 5 | Cost = 7 | NextHop = 4
  -> 6 | Cost = 7 | NextHop = 2
 Router 2
 
- -> 1 | Cost = 5 | NextHop = 3
+ -> 1 | Cost = 1 | NextHop = 1
  -> 3 | Cost = 2 | NextHop = 3
  -> 4 | Cost = 5 | NextHop = 3
  -> 5 | Cost = 7 | NextHop = 3
@@ -167,12 +167,12 @@ Router 5
  -> 2 | Cost = 7 | NextHop = 4
  -> 3 | Cost = 5 | NextHop = 4
  -> 4 | Cost = 2 | NextHop = 4
- -> 6 | Cost = 1 | NextHop = 6
+ -> 6 | Cost = 5 | NextHop = 4
 Router 6
 
  -> 1 | Cost = 7 | NextHop = 3
  -> 2 | Cost = 6 | NextHop = 3
  -> 3 | Cost = 4 | NextHop = 3
  -> 4 | Cost = 3 | NextHop = 5
- -> 5 | Cost = 1 | NextHop = 5
+ -> 5 | Cost = 9 | NextHop = 3
 >>> NETWORK CONVERGED>> 
