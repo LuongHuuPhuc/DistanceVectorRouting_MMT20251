@@ -1,0 +1,8 @@
+- Từ Test 1 -> Test 3 mô phỏng nhiều link failure nhưng trong trường hợp lý tưởng 
+- Sau mỗi lần file thì em lại cập nhật lại giá trị cost của topology thật 1 lần nên toàn mạng sẽ biết ngay link bị đứt 
+- Cùng với việc phong phú liên kết dự phòng của các Router
+- Điều đó khiến mạng hội tụ nhanh hơn
+
+- Ở Test 4 mô phỏng nhiều link failure xảy ra tại các thời điểm khác nhau.
+- Mỗi lần failure, các router không biết topology thật, nên tiếp tục cập nhật bảng định tuyến dựa trên thông tin sai,
+dẫn đến nhiều đợt Count-to-Infinity xuất hiện nối tiếp nhau.

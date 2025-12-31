@@ -21,7 +21,7 @@
 %   - NextHop: Bang Next Hop sau khi cap nhat
 function [DV_new, NextHop] = distance_vector_step( ...
     DV, cost, NextHop, ...
-    USE_SPLIT_HORIZON, USE_POISON_REVERSE, INFINITY)
+    USE_SPLIT_HORIZON, USE_POISONED_REVERSE, INFINITY)
 
     % So node (Router) trong mang
     N = size(DV, 1);
@@ -31,13 +31,16 @@ function [DV_new, NextHop] = distance_vector_step( ...
     for x = 1 : N 
         % Router v (Router lang gieng cua x)
         for v = 1 : N 
-            % cost(x, v) ~= Inf -> Lang gieng truc tiep cua no
+            % DV(x, v) < INFINITY -> Router x chi dua vao niem tin cua
+            % chinh no de toi v (Khong quan tam link con hay khong)
+            % cost(x, v) ~= Inf -> Router x va v con link vat ly truc tiep
             % x ~= v -> Bo qua chinh no
-            if(cost(x, v) ~= Inf && x ~= v)
+            % if(cost(x, v) ~= Inf && x ~= v)
+            if(DV(x, v) < INFINITY && x ~= v)
 
-                % Router x nhan bang DV tu router v
+                % Router v chia se bang dinh tuyen DV cua no cho Router x
                 for y = 1 : N
-                    % Router v quang ba chi phi cua no den dich y
+                    % Router v quang ba chi phi cua no den Router y nao do
                     advertised_cost = DV(v, y);
 
                     % ----- SPLIT HORIZON -----
@@ -50,18 +53,31 @@ function [DV_new, NextHop] = distance_vector_step( ...
 
                     % ----- POISIONED REVERSE -----
                     % Router v di toi y qua Router x
-                    if USE_POISON_REVERSE && NextHop(v, y) == x
+                    if USE_POISONED_REVERSE && NextHop(v, y) == x
                         % Router v van quang ba nhung voi cost = ∞
                         advertised_cost = INFINITY;
                     end
 
                     % Tinh chi phi moi (Bellman-Ford)
-                    new_cost = cost(x, v) + advertised_cost;
+                    % Router x dang nhin truc tiep vao cost(x, v) ma cost la
+                    % ma tran toan cuc, shared cho tat cac Router
+                    % Mat tinh thuc te cua DVR khi cai no cung cap chi la
+                    % niem tin moi trong khi dong nay no cung cap ca thong tin DV toan cuc
+                    % new_cost = cost(x, v) + advertised_cost;
+                    new_cost = DV(x, v) + advertised_cost;
 
-                    % So sanh chi phi cu va moi
-                    if new_cost < DV_new(x, y)
-                        DV_new(x, y) = new_cost; % Neu tot hon
-                        NextHop(x, y) = v; % Dat next hop = router v
+                    old_cost = DV_new(x, y);
+
+                    % So sanh chi phi cu va moi (Bellman-Ford ly tuong)
+                    if new_cost < old_cost
+                        % Neu tot hon thi lay -> Router se khong BAO GIO chap nhan cost tang
+                        DV_new(x, y) = new_cost; 
+                        NextHop(x, y) = v; % Dat Router x toi y qua Router v
+
+                    % Neu next hop cua x den y phai v va van phai chap nhan gia tri new_cost
+                    % co the lon hon old_cost
+                    elseif NextHop(x, y) == v && new_cost ~= old_cost
+                        DV_new(x, y) = new_cost;
                     end
                 end
             end

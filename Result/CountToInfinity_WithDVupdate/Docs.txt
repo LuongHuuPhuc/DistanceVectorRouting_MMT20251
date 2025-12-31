@@ -1,0 +1,24 @@
+Kịch bản:
+- Mô phỏng đúng lỗi kinh điển Count-to-Infinty của thuật toán DVR đúng theo tình huống thực tế
+    
+1. Topology Before Link Failure 
+    + Hình Topology Before Link Failure là topology ban đầu của mạng, gồm 6 
+    + Các Router chỉ biết chi phí đến các Router láng giềng trực tiếp và bảng định tuyến ban đầu được xây dựng từ thông tin đó
+
+2. Topology After Link Failure 
+    + Sau đó, trong quá trình mô phỏng, một số liên kết sẽ bị lỗi ngẫu nhiên 
+    + Tuy nhiên, trong mô hình này, khi link bị lỗi, em không cập nhật ma trận cost toàn cục (cost(u, v) = Inf) mà chỉ cập nhật Distance Vector cục bộ của 2 Router liên quan (DV(u, v) = INFINITY) 
+    + Vì vậy, các Router khác trong mạng không biết ngay rằng liên kết đã bị đứt 
+    + Mặc dù link bị lỗi, nhưng đúng theo thực tế, Router vẫn phải tin rằng còn đường, chỉ là đường đó có cost ngày càng cao, không loại bỏ Route mà bắt buộc phải chấp nhận cost đó
+    + Đó chính là điều kiện để sinh ra Count-to_Infinity
+
+3. Shortest Path
+    + Ở hình bên trái phía dưới, em minh hoạ đường đi ngắn nhất từ Router 1 đến N 
+    + Sau khi các link failure xảy ra, trên thực tế không còn đường đi hợp lệ, nhưng do các Router vẫn tin vào thông tin cũ từ láng giềng nên bảng định tuyến không bị xóa ngay
+    + Thay vì phát hiện "không có đường", các router vẫn tin rằng có đường vòng nào đó thông qua láng giềng, dù chi phí ngày càng lớn
+
+4. Distance Vector Convergence 
+    + Đồ thị thể hiện tổng chi phí của toàn mạng theo từng vòng lặp
+    + Sau mỗi lần lặp, tổng chi phí không hội tụ mà tăng dần theo thời gian
+    
+Trong mô hình này, em cố tình để Router chấp nhận cả những route có cost cao, thay vì loai bỏ route ngay lập. Do đó, topology không gãy về mặt hình học mà chi phí cost đã trở nên đắt đỏ hơn

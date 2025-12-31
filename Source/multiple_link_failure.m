@@ -18,8 +18,14 @@ numNodes = 6; % So Nodes (so Router)
 MAX_ITER = 100; 
 
 % So vong lap ma link bi failure (Khi nao mang bi link failure)
-LINK_FAILURE_ITER = 6; % (UNUSED)
-LINK_FAILURE_PROB = 0.1;  % Ty le Link bi dut (20 %)
+failure_events = [
+    10  3  4; % iter | u | v
+    25  2  3;
+    40  1  2;
+    60  5  6;
+]; 
+num_failures = size(failure_events, 1);
+failure_idx = 1;
 
 % Bat/tat chuc nang
 USE_SPLIT_HORIZION = false; % Giam Count-to-Infinity nhung chua triet de
@@ -36,7 +42,7 @@ cost_after_list = cell(maxFailures, 1); % Mang luu cac topology sau failure vi m
 failure_count = 0;
 
 % ===== KHOI TAO TOPOLOGY =====
-cost = init_topology(numNodes); % Bien toan cuc
+cost = init_topology(numNodes);
 cost_before = cost; % Topology truoc khi link failure
 cost_history = zeros(MAX_ITER, 1); % Lich su hoi tu
 
@@ -74,48 +80,39 @@ end
 for iter = 1 : MAX_ITER
     fprintf("\n===== INTERATION %d =====\n", iter);
 
-    % ----- LINK FAILURE (RANDOM SHIT) -----
-    if rand < LINK_FAILURE_PROB
-        % Tim tat ca cac link dang ton tai (Chi lay nua tren ma tran)
-        % cost ~= Inf -> Co link 
-        % cost ~= 0 -> Khong phai la node voi chinh no 
-        % triu(...) -> Tranh chon trung (i - j) va (j - i)
-        [row, col] = find(cost ~= Inf & cost ~= 0 & triu(true(size(cost))));
+    % ----- LINK FAILURE (MULTIPLE LINK FAILURE) -----
+    if failure_idx <= num_failures && iter == failure_events(failure_idx, 1)
+        u = failure_events(failure_idx, 2);
+        v = failure_events(failure_idx, 3);
 
-        if ~isempty(row)
-            % Chon ngau nhien 1 link 
-            idx = randi(length(row));
-            u = row(idx);
-            v = col(idx);
+        fprintf(">>> MULTIPLE LINK FAILURE: %d <-> %d at iter %d\n", u, v, iter);
 
-            fprintf(">>> RANDOM LINK FAILURE: %d <-> %d\n", u, v);
+        % Cat lien ket vat ly giua 2 node bi link failure (ly tuong)
+        % Cai nay thi khong gay ra Count-to-Infinity
+        % Nhung cost la bien toan cuc nen toan bo Router se biet link u-v se bi dut ngay
+        % nghia la lien ket giua 2 router do se bi dut (khong dung nua)
+        % De dung voi thuc te hon la Router khac van tin tuong duong cu
+        % thi se khong cho cac Router biet cac thong tin that su (Khong
+        % cap nhat thong tin)
+        
+        % cost(u, v) = Inf;
+        % cost(v, u) = Inf;
 
-            % Cat lien ket vat ly giua 2 node bi link failure (ly tuong)
-            % Cai nay thi khong gay ra Count-to-Infinity
-            % Nhung cost la bien toan cuc nen toan bo Router se biet link u-v se bi dut ngay
-            % nghia la lien ket giua 2 router do se bi dut (khong dung nua)
-            % De dung voi thuc te hon la Router khac van tin tuong duong cu
-            % thi se khong cho cac Router biet cac thong tin that su (Khong
-            % cap nhat thong tin)
-            
-            % cost(u, v) = Inf;
-            % cost(v, u) = Inf;
+        % Cap nhat bang DV cuc bo tai router u va v
+        % Bieu thi nhan thuc/niem tin cua router ve viec link da bi dut
+        % Router u se quang ba DV cua no cho lang gieng v ngay (ly tuong)
+        % Dieu nay lam giam kha nang xuat hien Count-to-Infinity
 
-            % Cap nhat bang DV cuc bo tai router u va v
-            % Bieu thi nhan thuc/niem tin cua router ve viec link da bi dut
-            % Router u se quang ba DV cua no cho lang gieng v ngay (ly tuong)
-            % Dieu 
+        DV(u, v) = INFINITY;
+        DV(v, u) = INFINITY;
 
-            DV(u, v) = INFINITY;
-            DV(v, u) = INFINITY;
+        % Luu lai topology sau moi lan failure 
+        failure_count = failure_count + 1;
 
-            % Luu lai topology sau moi lan failure 
-            failure_count = failure_count + 1;
-
-            cost_after_list{failure_count} = cost;
-            failure_iter(failure_count) = iter;
-            failure_links(failure_count, :) = [u, v]; 
-        end
+        cost_after_list{failure_count} = cost;
+        failure_iter(failure_count) = iter;
+        failure_links(failure_count, :) = [u, v]; 
+        failure_idx = failure_idx + 1;
     end
 
     % Do topology co nhieu duong thay the nen it xay ra Count-to-Infinity
