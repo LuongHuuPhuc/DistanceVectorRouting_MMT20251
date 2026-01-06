@@ -4,7 +4,7 @@
 - Là thuyết toán định tuyến trong đó, mỗi router chi biết:
     - Chi phí từ nó đến các Router láng giềng trực tiếp
     - Bảng định tuyến (distance vector) của láng giềng 
-- Router định kỳ trao đổi **vector khoảng cách** với láng giềng để cập nhật bảng định tuyến 
+- Router định kỳ trao đổi **vector khoảng cách** với láng giềng để cập nhật bảng định tuyến
 - Dựa trên công thức **Bellman-Ford**: 
 
 $$ D_x(y) = \min_{v \in \text{Neighbors}(x)} \{ c(x, v) + D_v(y) \} $$
@@ -13,6 +13,8 @@ $$ D_x(y) = \min_{v \in \text{Neighbors}(x)} \{ c(x, v) + D_v(y) \} $$
     - $D_x(y)$ là **Metric (tổng cost)** mà Router x tin là chi phí tốt nhất để đi tới đích y (theo nhận thức của x)
     - $c(x, v)$ là cost vật lý từ Router x đến Router láng giềng v (niềm tin)
     - $D_v(y)$ là **Metric (tổng cost)** mà Router v quảng bá tới đích y 
+
+- Cơ chế hoạt động trong mô phỏng thuật toán **Distance Vector Routing** (dùng **Bellman-Ford**): các Router (nút) liên tục trao đổi toàn bộ bảng định tuyến của mình (thông tin khoảng cách và hướng đi) với các Router láng giềng. Sau đó, mỗi Router dùng thông tin này để chạy một phiên bản của Bellman-Ford, cập nhật bảng định tuyến của mình, tìm ra đường đi tốt nhất (ít hop nhất).
 
 ## 2. Mô hình mô phỏng 
 ### 2.1 Thành phần mô phỏng
