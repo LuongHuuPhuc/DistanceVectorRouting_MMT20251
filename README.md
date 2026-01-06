@@ -39,6 +39,10 @@ $$ D_x(y) = \min_{v \in \text{Neighbors}(x)} \{ c(x, v) + D_v(y) \} $$
     - `DV(u, v)`: là **Metric** mà Router u quảng bá đến láng giềng v của nó
     - `cost(u, v)`: là **cost** vật lý của link giữa Router u đến Router v
 
+#### IMPORTANT NOTE 
+- Mô phỏng này có mục đích nữa là để mô phỏng lại hiện tương **Count-to-Infinity** nhưng nếu áp dụng đúng thuật toán **Bellman-Ford lý tưởng** với thông tin toàn cục thì việc xảy ra **link-failure** sẽ được mạng cập nhật kịp thời, đầy đủ thông tin và đồng bộ, khi đó khó để xảy ra hiện tượng vòng lặp vô hạn. 
+- Thế nên, mô phỏng này cố tình sử dụng **Distance Vector Routing** với **Bellman-Ford phân tán (với thông tin không đồng bộ)** để tái hiện đúng hành vi của các giao thức như **RIP (Routing Information Protocol)** cũng như dễ xảy ra **Count-to-Infinity**
+
 ## 3. Thành phần nâng cao 
 ### 3.1 Count-to-Inifinity Problem (Lỗi kinh điển của Distance-Vector)
 - **Count-to-Infinity** xảy ra khi: 
