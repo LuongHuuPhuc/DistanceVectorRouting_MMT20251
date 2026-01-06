@@ -9,6 +9,10 @@
 
 $$ D_x(y) = \min_{v \in \text{Neighbors}(x)} \{ c(x, v) + D_v(y) \} $$
 
+- Trong đó:
+    - $c(x, v)$ là cost từ Router x đến Router láng giềng v
+    - $D_v(y)$ là cost mà Router v quảng bá
+
 ## 2. Mô hình mô phỏng 
 ### 2.1 Thành phần mô phỏng
 | Thành phần            | Ý nghĩa             |
@@ -24,6 +28,13 @@ $$ D_x(y) = \min_{v \in \text{Neighbors}(x)} \{ c(x, v) + D_v(y) \} $$
 - Không xét delay, packet loss
 - Các Router cập nhật bảng định tuyến đồng bộ theo vòng lặp (`DV = DV_new`)
 - Topology có thể thay đổi do link failure ngẫu nhiên
+- Theo lý thuyết, **Metric** được tính bằng tổng **chi phí (cost)** các link trên đường đi, và hoàn toàn độc lập với vòng lặp cập nhật của thuật toán
+    - Tuy nhiên trong mô phỏng này, **Metric** lại là tổng trọng số liên kết, không nhất thiết tương ứng với số **hop** hay đơn vị vật lý cụ thể (mỗi link có độ đắt rẻ khác nhau)
+- **Cost** trong mô phỏng này không phải **hop-count** mà là trọng số (link metric) tổng quát - link có giá trị tùy ý, nhằm quan sát rõ hơn **Count-to-Infinity**
+    - Vì thế nên **Count-to-Infinity** vẫn xảy ra nhưng không tăng đều 1-2-3-4... mà tăng theo tổng trọng số và đồ thị có thể tăng lên rất nhanh (hàng trăm, hàng nghìn lần) 
+- Ký hiệu trong mô phỏng:
+    - `DV(u, v)`: là **cost** mà Router u quảng bá đến láng giềng v của nó
+    - `cost(u, v)`: là **cost** của link giữa Router u đến Router v
 
 ## 3. Thành phần nâng cao 
 ### 3.1 Count-to-Inifinity Problem (Lỗi kinh điển của Distance-Vector)
