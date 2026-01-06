@@ -10,8 +10,9 @@
 $$ D_x(y) = \min_{v \in \text{Neighbors}(x)} \{ c(x, v) + D_v(y) \} $$
 
 - Trong đó:
-    - $c(x, v)$ là cost từ Router x đến Router láng giềng v
-    - $D_v(y)$ là cost mà Router v quảng bá
+    - $D_x(y)$ là **Metric (tổng cost)** mà Router x tin là chi phí tốt nhất để đi tới đích y (theo nhận thức của x)
+    - $c(x, v)$ là cost vật lý từ Router x đến Router láng giềng v (niềm tin)
+    - $D_v(y)$ là **Metric (tổng cost)** mà Router v quảng bá tới đích y 
 
 ## 2. Mô hình mô phỏng 
 ### 2.1 Thành phần mô phỏng
