@@ -34,8 +34,8 @@ $$ D_x(y) = \min_{v \in \text{Neighbors}(x)} \{ c(x, v) + D_v(y) \} $$
 - **Cost** trong mô phỏng này không phải **hop-count** mà là trọng số (link metric) tổng quát - link có giá trị tùy ý, nhằm quan sát rõ hơn **Count-to-Infinity**
     - Vì thế nên **Count-to-Infinity** vẫn xảy ra nhưng không tăng đều 1-2-3-4... mà tăng theo tổng trọng số và đồ thị có thể tăng lên rất nhanh (hàng trăm, hàng nghìn lần) 
 - Ký hiệu trong mô phỏng:
-    - `DV(u, v)`: là **cost** mà Router u quảng bá đến láng giềng v của nó
-    - `cost(u, v)`: là **cost** của link giữa Router u đến Router v
+    - `DV(u, v)`: là **Metric** mà Router u quảng bá đến láng giềng v của nó
+    - `cost(u, v)`: là **cost** vật lý của link giữa Router u đến Router v
 
 ## 3. Thành phần nâng cao 
 ### 3.1 Count-to-Inifinity Problem (Lỗi kinh điển của Distance-Vector)
