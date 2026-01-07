@@ -1,5 +1,7 @@
 clc; clear; close all;
+
 addpath("plot_components\");
+addpath("funcs\");
 
 rng(0);  % Co dinh seed de so sanh cong bang
 

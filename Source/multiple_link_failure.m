@@ -9,6 +9,7 @@
 clc; clear; close all;
 
 addpath("plot_components\");
+addpath("funcs\");
 
 %% ===== CAU HINH =====
 numNodes = 6; % So Nodes (so Router)
