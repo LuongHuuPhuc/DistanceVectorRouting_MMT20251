@@ -30,7 +30,7 @@ function [cost] = init_topology(numNodes)
               2 3 2;
               % 2 4 6;
               3 4 3;
-              % 4 5 2;
+              4 5 2;
               5 6 1;
               % 3 6 4;
               % 1 4 5;

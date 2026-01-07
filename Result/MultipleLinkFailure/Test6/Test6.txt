@@ -1,0 +1,5005 @@
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 888 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 889 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 890 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 891 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 892 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 893 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 894 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 895 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 896 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 897 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 898 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 899 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 900 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 901 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 902 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 903 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 904 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 905 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 906 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 907 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 908 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 909 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 910 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 911 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 912 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 913 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 914 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 915 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 916 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 917 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 918 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 919 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 920 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 921 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 922 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 923 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 924 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 925 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 926 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 927 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 928 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 929 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 930 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 931 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 932 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 933 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 934 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 935 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 936 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 937 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 938 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 939 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 940 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 941 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 942 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 943 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 944 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 945 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 946 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 947 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 948 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 949 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 950 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 951 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 952 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 953 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 954 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 955 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 956 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 957 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 958 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 959 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 960 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 961 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 962 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 963 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 964 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 965 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 966 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 967 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 968 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 969 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 970 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 971 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 972 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 973 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 974 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 975 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 976 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 977 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 978 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 979 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 980 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 981 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 982 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 983 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 984 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 985 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 986 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 987 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 988 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 989 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 990 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 991 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 992 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 993 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 994 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 995 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 996 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 997 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 998 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 999 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+
+===== INTERATION 1000 =====
+Router 1
+
+ -> 2 | Cost = 7 | NextHop = 3
+ -> 3 | Cost = 3 | NextHop = 3
+ -> 4 | Cost = 6 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 2
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 3 | Cost = 4 | NextHop = 3
+ -> 4 | Cost = 5 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 3
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 4 | NextHop = 2
+ -> 4 | Cost = 7 | NextHop = 4
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 4
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = 7 | NextHop = 2
+ -> 3 | Cost = 7 | NextHop = 3
+ -> 5 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 5
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 6 | Cost = INF | NextHop = -
+Router 6
+
+ -> 1 | Cost = INF | NextHop = -
+ -> 2 | Cost = INF | NextHop = -
+ -> 3 | Cost = INF | NextHop = -
+ -> 4 | Cost = INF | NextHop = -
+ -> 5 | Cost = INF | NextHop = -
+>> 
+>> 
+>> 
+>> 
+>> 

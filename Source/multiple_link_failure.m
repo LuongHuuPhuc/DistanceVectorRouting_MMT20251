@@ -10,19 +10,20 @@ clc; clear; close all;
 
 addpath("plot_components\");
 
-% ===== CAU HINH =====
+%% ===== CAU HINH =====
 numNodes = 6; % So Nodes (so Router)
 
 % So lan cac Router trao doi bang dinh tuyen toi da (so lan cap nhat toi da cua thuat toan)
 % Chinh la gioi han so vong cap nhat de tranh chay vo han khi mang khong hoi tu
-MAX_ITER = 100; 
+MAX_ITER = 1500; 
 
 % So vong lap ma link bi failure (Khi nao mang bi link failure)
 failure_events = [
-    10  3  4; % iter | u | v
-    25  2  3;
-    40  1  2;
-    60  5  6;
+  % iter | u | v
+     50  3  4;
+    200  2  3;
+    400  1  2;
+    843  5  6;
 ]; 
 num_failures = size(failure_events, 1);
 failure_idx = 1;
@@ -34,21 +35,21 @@ USE_POISIONED_REVERSE = true; % Chong Count-to-Infinity manh nhat trong DVR
 % So lon huu han
 INFINITY = 999;
 
-% ===== PREALLOCATE LUU FAILURE =====
+%% ===== PREALLOCATE LUU FAILURE =====
 maxFailures = MAX_ITER;
 failure_iter = zeros(maxFailures, 1);  % Luu iteration tuong ung
 failure_links = zeros(maxFailures, 2); % Luu cap link bi dut (u, v)
 cost_after_list = cell(maxFailures, 1); % Mang luu cac topology sau failure vi moi phan tu la 1 matrix NxN
 failure_count = 0;
 
-% ===== KHOI TAO TOPOLOGY =====
+%% ===== KHOI TAO TOPOLOGY =====
 cost = init_topology(numNodes);
 cost_before = cost; % Topology truoc khi link failure
 cost_history = zeros(MAX_ITER, 1); % Lich su hoi tu
 
 N = numNodes;
 
-% ===== KHOI TAO BANG DINH TUYEN (DISTANCE VECTOR ROUTE) =====
+%% ===== KHOI TAO BANG DINH TUYEN (DISTANCE VECTOR ROUTE) =====
 % Luu thong tin duong di va quyet dinh duong di tiep theo cho Router
 DV = cost;
 DV(DV == Inf) = INFINITY; % Thay vo cuc bang so lon huu han de de quan sat
@@ -63,7 +64,7 @@ NextHop = zeros(N); % Khoi tao bang NextHop ban dau = 0 (Router ke tiep) kich th
 %      0   0   0   0   0   0 
 %      0   0   0   0   0   0 
 
-% Vong for khoi tao NextHop
+%% Vong for khoi tao NextHop
 for i = 1 : N
     for j = 1 : N
 
@@ -76,7 +77,7 @@ for i = 1 : N
     end
 end
 
-% ===== MO PHONG VONG LAP =====
+%% ===== MO PHONG VONG LAP =====
 for iter = 1 : MAX_ITER
     fprintf("\n===== INTERATION %d =====\n", iter);
 
@@ -87,7 +88,7 @@ for iter = 1 : MAX_ITER
 
         fprintf(">>> MULTIPLE LINK FAILURE: %d <-> %d at iter %d\n", u, v, iter);
 
-        % Cat lien ket vat ly giua 2 node bi link failure (ly tuong)
+        % Cat lien ket vat ly giua 2 node bi link failure (Bellman-Ford ly tuong)
         % Cai nay thi khong gay ra Count-to-Infinity
         % Nhung cost la bien toan cuc nen toan bo Router se biet link u-v se bi dut ngay
         % nghia la lien ket giua 2 router do se bi dut (khong dung nua)
@@ -98,10 +99,10 @@ for iter = 1 : MAX_ITER
         % cost(u, v) = Inf;
         % cost(v, u) = Inf;
 
-        % Cap nhat bang DV cuc bo tai router u va v
+        % Cap nhat bang dinh tuyen cuc bo tai router u va v
         % Bieu thi nhan thuc/niem tin cua router ve viec link da bi dut
         % Router u se quang ba DV cua no cho lang gieng v ngay (ly tuong)
-        % Dieu nay lam giam kha nang xuat hien Count-to-Infinity
+        % Thong tin nay chua duoc lan truyen ngay lap tuc toi cac Router khac
 
         DV(u, v) = INFINITY;
         DV(v, u) = INFINITY;
@@ -118,19 +119,20 @@ for iter = 1 : MAX_ITER
     % Do topology co nhieu duong thay the nen it xay ra Count-to-Infinity
     % Count-to-Infinity chi xay ra khi topology ngheo duong du phong
 
-    % ----- CAP NHAT BANG DINH TUYEN DISTANCE VECTOR -----
+    %% ----- CAP NHAT BANG DINH TUYEN DISTANCE VECTOR -----
     [DV_new, NextHop] = distance_vector_step(...
         DV, cost, NextHop, ...
         USE_SPLIT_HORIZION, ...
         USE_POISIONED_REVERSE, ...
         INFINITY);
     
+    % Luu bang dinh tuyen moi vao lich su (chi lay DV nao chua INF)
     cost_history(iter) = sum(DV_new(DV_new < INFINITY), 'all');
 
-    % ----- IN BANG DINH TUYEN -----
+    %% ----- IN BANG DINH TUYEN -----
     print_routing_table(DV_new, NextHop, INFINITY);
 
-    % ----- KIEM TRA HOI TU -----
+    %% ----- KIEM TRA HOI TU -----
     if check_convergence(DV, DV_new)
         fprintf(">>> NETWORK CONVERGED (TEMPORARY)");
         % Khong break vong lap vi trong bang dinh tuyen co the hoi tu tam
@@ -148,7 +150,7 @@ for iter = 1 : MAX_ITER
     DV = DV_new;
 end
 
-% ----- VE DO THI TRUC QUAN HOA TUNG LAN FAILURE -----
+%% ----- VE DO THI TRUC QUAN HOA TUNG LAN FAILURE -----
 cost_history = cost_history(1 : iter);
 
 if failure_count > 0

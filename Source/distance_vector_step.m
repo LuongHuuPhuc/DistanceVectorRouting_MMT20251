@@ -17,7 +17,7 @@
 %   - USE_POISION_REVERSE: Bat/tat che do 
 %   - INFINITY: Gia tri dai dien cho vo han (huu han lon)
 % Output: 
-%   - DV_new: Distance Vector sau khi cap nha
+%   - DV_new: Distance Vector cua cac Router sau khi cap nha
 %   - NextHop: Bang Next Hop sau khi cap nhat
 function [DV_new, NextHop] = distance_vector_step( ...
     DV, cost, NextHop, ...
@@ -27,24 +27,35 @@ function [DV_new, NextHop] = distance_vector_step( ...
     N = size(DV, 1);
     DV_new = DV;  % Khoi tao DV moi = DV cu (chi update khi tim duoc duong tot hon)
 
-    % Router x (Router dang cap nhat bang dinh tuyen cua no)
+    % Cap nhat bang dinh tuyen cua Router x (cho den het cac Router)
     for x = 1 : N 
         % Router v (Router lang gieng cua x)
         for v = 1 : N 
-            % DV(x, v) < INFINITY -> Router x chi dua vao niem tin cua
-            % chinh no de toi v (Khong quan tam link con hay khong)
-            % cost(x, v) ~= Inf -> Router x va v con link vat ly truc tiep
-            % x ~= v -> Bo qua chinh no
-            % if(cost(x, v) ~= Inf && x ~= v)
-            if(DV(x, v) < INFINITY && x ~= v)
 
-                % Router v chia se bang dinh tuyen DV cua no cho Router x
+            % Bellman-Ford phan tan:
+            % + DV(x, v) < INFINITY -> Router x chi dua vao niem tin cua
+            %                          chinh no de toi v (Khong quan tam link con hay khong)
+            if(DV(x, v) < INFINITY && x ~= v)
+            % ===================================================== % 
+            % Bellman-Ford ly tuong: 
+            % + cost(x, v) ~= Inf -> Router x va v con link vat ly truc tiep
+            %                        Neu ta cap nhat cost cua Topology chua thong tin ve link vat 
+            %                        ly giua Router u-v sau moi iter la Inf thi moi lan cap nhat bang dinh tuyen, 
+            %                        cost(u, v) ~= Inf se bo qua no => Link vat ly mat di (khong thuc te)
+            % if(cost(x, v) ~= Inf && x ~= v)
+
+                % Router v chia se bang dinh tuyen DV cua no cho Router x route toi y
                 for y = 1 : N
+
                     % Router v quang ba chi phi cua no den Router y nao do
                     advertised_cost = DV(v, y);
 
                     % ----- SPLIT HORIZON -----
-                    % Router v di toi y qua chinh Router x
+                    % Neu Router v di toi y qua chinh Router x 
+                    % Day la co che phan ung cua network
+                    % Ban dau kich hoat no khong chan gi ca ma cho den khi
+                    % mot Router hoc route quay nguoc lai chinh 
+                    % NextHop(v, y) == x la kich hoat 
                     if USE_SPLIT_HORIZON && NextHop(v, y) == x
                         % Router v khong duoc phep quang ba Route do cho Router x
                         % Muc tieu giam vong lap
@@ -53,28 +64,32 @@ function [DV_new, NextHop] = distance_vector_step( ...
 
                     % ----- POISIONED REVERSE -----
                     % Router v di toi y qua Router x
+                    % Khi Router v khi gui DV cua no den Router x 
+                    % Neu route toi y  
                     if USE_POISONED_REVERSE && NextHop(v, y) == x
                         % Router v van quang ba nhung voi cost = ∞
                         advertised_cost = INFINITY;
                     end
 
-                    % Tinh chi phi moi (Bellman-Ford)
+                    % Chi phi moi cua Router x (theo cong thuc Bellman-Ford)
                     % Router x dang nhin truc tiep vao cost(x, v) ma cost la
                     % ma tran toan cuc, shared cho tat cac Router
                     % Mat tinh thuc te cua DVR khi cai no cung cap chi la
                     % niem tin moi trong khi dong nay no cung cap ca thong tin DV toan cuc
-                    % new_cost = cost(x, v) + advertised_cost;
-                    new_cost = DV(x, v) + advertised_cost;
+
+                    % new_cost = cost(x, v) + advertised_cost; % Bellman-Ford ly tuong
+                    new_cost = DV(x, v) + advertised_cost; % Bellman-Ford phan tan
 
                     old_cost = DV_new(x, y);
 
                     % So sanh chi phi cu va moi (Bellman-Ford ly tuong)
+                    % de lay gia tri tot hon va sau do cap nhat bang dinh
+                    % tuyen (niem tin) moi cho cac Router 
                     if new_cost < old_cost
-                        % Neu tot hon thi lay -> Router se khong BAO GIO chap nhan cost tang
                         DV_new(x, y) = new_cost; 
                         NextHop(x, y) = v; % Dat Router x toi y qua Router v
 
-                    % Neu next hop cua x den y phai v va van phai chap nhan gia tri new_cost
+                    % Con khong neu next hop cua x den y phai v va van phai chap nhan gia tri new_cost
                     % co the lon hon old_cost
                     elseif NextHop(x, y) == v && new_cost ~= old_cost
                         DV_new(x, y) = new_cost;

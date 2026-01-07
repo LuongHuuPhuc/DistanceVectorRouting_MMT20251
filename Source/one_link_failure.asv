@@ -15,7 +15,7 @@ numNodes = 3; % So Nodes (so Router)
 
 % So lan cac Router trao doi bang dinh tuyen toi da (so lan cap nhat toi da cua thuat toan)
 % Chinh la gioi han so vong cap nhat de tranh chay vo han khi mang khong hoi tu
-MAX_ITER = 1500; 
+MAX_ITER = 1000; 
 
 % Vong lap ma link bi failure (Khi nao mang bi link failure)
 LINK_FAILURE_ITER = 473;
@@ -36,7 +36,7 @@ cost_after_list = cell(maxFailures, 1); % Mang luu cac topology sau failure vi m
 failure_count = 0;
 
 %% ===== KHOI TAO TOPOLOGY =====
-cost = init_topology_3nodes(numNodes);
+cost = init_topology_(numNodes);
 cost_before = cost; % Topology truoc khi link failure
 cost_history = zeros(MAX_ITER, 1); % Lich su hoi tu
 
@@ -77,8 +77,8 @@ for iter = 1 : MAX_ITER
     % ----- LINK FAILURE (ONE LINK FAILURE) -----
     if iter == LINK_FAILURE_ITER && ~link_failed
         % Chon link co dinh de demo 
-        u = 2;
-        v = 3;
+        u = 1;
+        v = 2;
 
         fprintf(">>> SINGLE LINK FAILURE: %d <-> %d at iter %d\n", u, v, iter);
 
@@ -124,7 +124,6 @@ for iter = 1 : MAX_ITER
     
     % Luu bang dinh tuyen moi vao lich su (chi lay DV nao chua INF)
     cost_history(iter) = sum(DV_new(DV_new < INFINITY), 'all');
-    % cost_history(iter) = DV_new(1, 3);
 
     %% ----- IN BANG DINH TUYEN -----
     print_routing_table(DV_new, NextHop, INFINITY);
