@@ -37,7 +37,7 @@ cost_after_list = cell(maxFailures, 1); % Mang luu cac topology sau failure vi m
 failure_count = 0;
 
 %% ===== KHOI TAO TOPOLOGY =====
-cost = init_topology_3nodes(numNodes);
+cost = init_topology_nodes(numNodes);
 cost_before = cost; % Topology truoc khi link failure
 cost_history = zeros(MAX_ITER, 1); % Lich su hoi tu
 
@@ -125,7 +125,6 @@ for iter = 1 : MAX_ITER
     
     % Luu bang dinh tuyen moi vao lich su (chi lay DV nao chua INF)
     cost_history(iter) = sum(DV_new(DV_new < INFINITY), 'all');
-    % cost_history(iter) = DV_new(1, 3);
 
     %% ----- IN BANG DINH TUYEN -----
     print_routing_table(DV_new, NextHop, INFINITY);
